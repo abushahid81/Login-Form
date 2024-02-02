@@ -19,13 +19,13 @@ function forminput(){
 
 // Password
 
-if(Password1==null || Password1==""){
-    document.getElementById('password').innerHTML ="Please fill the Password feild";
-    return false;
-}
-if(Password1.length<=5 || Password1.length>=20){
-    document.getElementById('password').innerHTML ="Password lenght must be between 5 and 20";
-    return false;
-}
+    if(Password1==null || Password1==""){
+        document.getElementById('password').innerHTML ="Please fill the Password feild";
+        return false;
+    }
+    if(Password1.length<=5 || Password1.length>=20){
+        document.getElementById('password').innerHTML ="Password lenght must be between 5 and 20";
+        return false;
+    }
      
 }
