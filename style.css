@@ -20,20 +20,21 @@ body{
     width: 100vw;
 }
 .container {
-width: 420px;
+width: 430px;
 background: transparent;
 border: 3px solid rgba(255, 255, 255, .2);
 color: #fff;
 border-radius: 10px;
-padding: 10px 30px;
+padding: 0px 30px;
 }
 
 .container h2 {
 font-size: 36px;
 text-align: center;
-background: linear-gradient(to right, #66ffff 3%, #ffccff 86%);
-  background-clip: text;
+background: linear-gradient(to right, #66ffff 4%, #ffccff 86%);
+background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 .container .input-box {
@@ -103,4 +104,8 @@ background: linear-gradient(to right, #66ffff 3%, #ffccff 86%);
 
 .register-link p a:hover{
     text-decoration: underline;
+}
+
+.alert{
+    color: rgb(218, 82, 82);
 }
